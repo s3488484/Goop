@@ -10,12 +10,12 @@ PImage img;
 String w = "Click and drag to draw           Press 'c' to clear          Press 'v' to upsize        Press 'z' for white Goop          Press 'b' to save image";
 boolean  screen = false;
  
-void setup()
+void setup()// Only runs once 
 { 
   
   background(255);
   frameRate(120); // Affects the speed of drawing tool 
-  size(1200,800); 
+  size(1200,800); // Size of canvas 
   
   img = loadImage("welcome.jpg");
    
@@ -30,7 +30,7 @@ void splash()
 }
 
 
-void draw()
+void draw()// Runs every frame 
 {
   
  // Boolean variable makes image launch with program
@@ -55,6 +55,7 @@ void draw()
     {
      if (key == 'c' || key == 'C'){
      goops.remove(i);
+     background(255);
     }
    }
    
