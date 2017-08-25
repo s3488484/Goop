@@ -7,7 +7,7 @@
 ArrayList<Goop> goops = new ArrayList<Goop>();
 ArrayList<Goop2> goop2s = new ArrayList<Goop2>();
 PImage img;
-String w = "Click and drag to draw           Press 'c' to clear          Press 'v' to upsize        Press 'z' for white Goop          Press 'b' to save image";
+String w = "Click and drag to draw           Hold 'c' to clear          Press 'v' to upsize        Press 'z' for white Goop          Press 'b' to save image";
 boolean  screen = false;
  
 void setup()// Only runs once 
